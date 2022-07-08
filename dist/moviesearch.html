@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KM|M-SEARCH</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+
+    <style>
+        .logo {
+            width: 50px;
+            height: 50px;
+        }
+    </style>
+</head>
+
+<body class="bg-dark">
+
+    <div class="container">
+
+        <div class="text-center p-3 m-5 bg-primary">
+            <div class="d-md-flex text-center align-items-center justify-content-around">
+                <div>
+                    <a href="index.html" class="navbar-brand">
+                        <img class="img-fliud logo" src="./images/mylogo.png" alt="">
+                        <span class="text-dark">- DEVELOPER</span>
+                    </a>
+                </div>
+                <div>
+                    <h1>Search for any Movie here..</h1>
+                    <form action="" id="searchForm">
+                        <input type="textarea" id="textarea" placeholder="search.." style="width: 100%;">
+                    </form>
+                </div>
+            </div>
+
+        </div>
+
+
+
+
+    </div>
+
+    <div class="container">
+
+        <div id="movies" class="row"></div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./js/main.js"></script>
+
+</body>
+
+</html>
